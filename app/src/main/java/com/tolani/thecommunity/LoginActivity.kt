@@ -1,7 +1,12 @@
 package com.tolani.thecommunity
 
+import android.graphics.Color
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Window
+import android.view.WindowManager
+import androidx.core.content.ContextCompat
 
 class LoginActivity : AppCompatActivity() {
 
