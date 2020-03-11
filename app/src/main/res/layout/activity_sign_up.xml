@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/grey"
     android:orientation="vertical"
-    android:padding="16dp"
-    tools:context=".LoginActivity">
+    android:padding="13dp"
+    tools:context=".SignUpActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,21 +23,57 @@
         android:text="@string/motto"
         android:textSize="11sp"
         android:fontFamily="@font/googlesans_regular"
-        android:paddingBottom="90dp"/>
+        android:paddingBottom="40dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
-        android:text="Login"
+        android:text="Sign Up"
         android:textSize="26sp"
         android:fontFamily="@font/googlesans_medium"
         android:paddingBottom="32dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="first name"
+        android:textColorHint="@color/white"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/googlesans_regular"
+        android:background="@drawable/custom_edit_text"
+        android:layout_marginBottom="22dp"
+        android:drawableEnd="@drawable/account_icon"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="last name"
+        android:textColorHint="@color/white"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/googlesans_regular"
+        android:background="@drawable/custom_edit_text"
+        android:layout_marginBottom="22dp"
+        android:drawableEnd="@drawable/account_icon"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textColorHint="@color/white"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/googlesans_regular"
+        android:background="@drawable/custom_edit_text"
+        android:layout_marginBottom="22dp"
+        android:drawableEnd="@drawable/account_icon"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="username"
         android:textColorHint="@color/white"
-        android:padding="12dp"
+        android:padding="7dp"
         android:textColor="@color/white"
         android:textSize="14sp"
         android:fontFamily="@font/googlesans_regular"
@@ -52,28 +88,28 @@
         android:textColorHint="@color/white"
         android:textSize="14sp"
         android:textColor="@color/white"
-        android:padding="12dp"
+        android:padding="7dp"
         android:fontFamily="@font/googlesans_regular"
         android:background="@drawable/custom_edit_text"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="40dp"
         android:drawableEnd="@drawable/lock_icon"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@drawable/custom_button"
-        android:text="sign in"
+        android:text="sign up"
         android:textAllCaps="false"
         android:fontFamily="@font/googlesans_bold"
         android:textColor="@color/white"
         android:layout_marginBottom="10dp"/>
     <TextView
-        android:id="@+id/account_creation"
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/white"
-        android:text="Don't have an Account?"
-        android:padding="8dp"
+        android:padding="5dp"
+        android:text="back"
         android:fontFamily="@font/googlesans_bold"/>
 </LinearLayout>
