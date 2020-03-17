@@ -94,6 +94,7 @@
         android:layout_marginBottom="40dp"
         android:drawableEnd="@drawable/lock_icon"/>
     <Button
+        android:id="@+id/sign_up_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

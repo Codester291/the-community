@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.view.View
 import android.view.Window
 import android.view.WindowManager
+import android.widget.Button
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 
@@ -21,6 +22,11 @@ class LoginActivity : AppCompatActivity() {
 
         text.setOnClickListener(View.OnClickListener {
             startActivity(Intent(this, SignUpActivity::class.java))
+        })
+
+        var btn: Button = findViewById(R.id.login_button)
+        btn.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this, MainPageActivity::class.java))
         })
     }
 }
